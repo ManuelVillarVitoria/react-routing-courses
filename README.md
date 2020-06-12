@@ -1,27 +1,21 @@
-# `Courses(SPA)`
+# `Courses(Routing-SPA)`
 
 _The project consists of doing the following:_
 
-_1.-Adding Routes to load "Users" and "Courses" on different pages (by entering a URL, without Links)._
+_1.-Adding Routes with Links._
 
-_2.-Adding a simple navigation with two links => One leading to "Users", one leading to "Courses"._
+_2.-Passing the data with Params and Query Params"._
 
-_3.-Making the courses in "Courses" clickable by adding a link and load the "Course" component in the place of "Courses" (without passing any data for now)._
+_3.-Loading components with Nested routes._
 
-_4.-Passing the course ID to the "Course" page and output it there._
+_4.-Using Redirect requests._
 
-_5.-Passing the course title to the "Course" page - pass it as a param or score bonus points by passing it as query params (you need to manually parse them though!)._
-
-_6.-Loading the "Course" component as a nested component of "Courses"._
-
-_7.-Adding a 404 error page and render it for any unknown routes._
-
-_8.-Redirect requests to /all-courses to /courses (=> Your "Courses" page)._
+_5.-Adding the 404 error (Unknown Routes)._
 
 _- Have been used **Class-Components** and **React Router** in this project._
 
 
-* ### `Deployment:`  
+* ### `Deployment: **https://epic-kare-70d438.netlify.app/users**`  
 
 
 ## Settings 🔧
