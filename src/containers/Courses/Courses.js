@@ -25,7 +25,8 @@ class Courses extends Component {
                                 <Link 
                                     key={course.id}
                                     to={{
-                                        pathname: this.props.match.url + '/' + course.id
+                                        pathname: this.props.match.url + '/' + course.id  + '/' + course.title
+                            
                                     }}
                                 >
                                     <article className="Course" key={course.id}>{course.title}</article>

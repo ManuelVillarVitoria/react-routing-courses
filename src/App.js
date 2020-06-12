@@ -33,9 +33,8 @@ class App extends Component {
 
           <Route path="/users" component={Users} />
           <Route path="/courses" component={Courses} />
-          <Route path="/courses/:ID" component={Course} />
-         
-         
+          <Route path="/courses/:ID/:Tit" component={Course} />
+        
       </div>
     );
   }
