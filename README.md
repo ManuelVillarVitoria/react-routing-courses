@@ -15,7 +15,7 @@ _5.-Adding the 404 error (Unknown Routes)._
 _- Have been used **Class-Components** and **React Router** in this project._
 
 
-* ### `Deployment: **https://epic-kare-70d438.netlify.app/users**`  
+* ### `Deployment:` **https://epic-kare-70d438.netlify.app/users** 
 
 
 ## Settings 🔧
