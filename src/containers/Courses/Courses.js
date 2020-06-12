@@ -13,6 +13,7 @@ class Courses extends Component {
         ]
     }
 
+    
     render () {
         return (
             <div>
@@ -23,9 +24,11 @@ class Courses extends Component {
                             return ( 
                                 <Link 
                                     key={course.id}
-                                    to="/course"
+                                    to={{
+                                        pathname: this.props.match.url + '/' + course.id
+                                    }}
                                 >
-                                    <article className="Course" key={course.id}>{course.title}</article>;
+                                    <article className="Course" key={course.id}>{course.title}</article>
                                 </Link>
                                 )
                         } )
